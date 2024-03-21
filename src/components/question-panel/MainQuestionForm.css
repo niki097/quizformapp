@@ -1,0 +1,28 @@
+.glass-form {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+        rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+        rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    max-width: 600px;
+    margin: auto;
+}
+.no-question p {
+    font-size: 21px;
+    color: cornflowerblue;
+    padding-left: 0.7rem;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .glass-form {
+        padding: 10px;
+    }
+
+    .glass-button {
+        padding: 5px 10px;
+    }
+}
